@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com_hrm_testreport.TestListner"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="loginpage(failed)">
+    <classes>
+      <class name="com_hrm_testcases.ForgotPassword_Testcase">
+        <methods>
+          <include name="setup"/>
+          <include name="tearUp"/>
+          <include name="forgotpassword"/>
+        </methods>
+      </class> <!-- com_hrm_testcases.ForgotPassword_Testcase -->
+      <class name="com_hrm_testcases.AdminPage_Testcases">
+        <methods>
+          <include name="setup"/>
+          <include name="tearUp"/>
+          <include name="adminPage"/>
+        </methods>
+      </class> <!-- com_hrm_testcases.AdminPage_Testcases -->
+    </classes>
+  </test> <!-- loginpage(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->

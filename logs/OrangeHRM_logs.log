@@ -1,0 +1,10 @@
+15:20:38 [com_hrm_testcases.BaseClass] INFO  setup - Browser launched
+15:20:38 [com_hrm_testcases.BaseClass] INFO  setup - Browser maximized
+15:20:42 [com_hrm_testcases.BaseClass] INFO  setup - Url Opened
+15:20:43 [com_hrm_testcases.LoginTest] INFO  loginPage - Entered UserName
+15:20:43 [com_hrm_testcases.LoginTest] INFO  loginPage - Entered Password
+15:20:48 [com_hrm_testcases.LoginTest] INFO  loginPage - Submit Button Clicked
+15:20:48 [com_hrm_testcases.LoginTest] INFO  loginPage - Login TestCase success
+15:20:52 [com_hrm_testcases.BaseClass] INFO  setup - Browser launched
+15:20:53 [com_hrm_testcases.BaseClass] INFO  setup - Browser maximized
+15:20:54 [com_hrm_testcases.BaseClass] INFO  setup - Url Opened
